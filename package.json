@@ -1,0 +1,21 @@
+{
+  "name": "moccha-chai-assignment",
+  "version": "1.0.0",
+  "description": "This is boiler plate code for Material UI, Moccha-chai set up, Folder Structure for Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --ui tdd ./src/**/*.js"
+  },
+  "author": "Latha J B",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
